@@ -8,10 +8,11 @@ function user(name, pass, school, grade, points) {
 }
 
 // pet object constructor
-function pet(name, type, points) {
-	this.name = document.getElementById(petName);
-    this.type = document.getElementById(petType);
+function pet(name, type, points, health) {
+	this.name = document.getElementById(name);
+    this.type = document.getElementById(type);
     this.points = document.getElementById(points);
+	this.health = document.getElementById(health);
 }
 
 //administrator object constructor

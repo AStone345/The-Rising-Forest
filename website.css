@@ -1,3 +1,10 @@
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F5F5DC;
+    max-width: 1000px;
+}
+
 nav ul{
     background-image: url(../images/woodBar.png);
     position: fixed;
@@ -32,8 +39,6 @@ nav ul li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
-
-
 
 input[type=text], select {
     width: 100%;

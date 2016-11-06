@@ -2,50 +2,39 @@
     width: 100%;
     margin: 0 auto;
     background-color: #F5F5DC;
-    max-width: 950px;
+    max-width: 1000px;
 }
 
-header{
-	text-align: center;
+header {
+    background-image: url("images/logobg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
 
-img{
-	display: inline-block;
-}
-
-nav ul{
-    background-image: url(../images/woodBar.png);
-    position: fixed;
-
-    background-color:#8f8;
+ul {
     list-style-type: none;
     margin: 0;
-    padding: 0 0 0 0;
-    background-color:#333;
-    background-size:contain;
-    object-position: 0 40%;
-}
-nav ul li{
-    float: left;
+    padding: 12px 0;
+    background-image: url(woodBar.png);
+    width: 100%;
 }
 
+li {
+    display: inline;
+    border-right: 1px solid #bbb;
+}
 
-nav ul li a {
-    
-    display: block;
+li:last-child {
+    border-right: none;
+}
+
+li a {
     color: white;
-    list-style-type: none;
-    padding: 12px 20px;
+    text-align: center;
+    padding: 6px;
     text-decoration: none;
-}
-
-nav ul li a:hover:not(.active) {
-    background: rgb(10,10,10);
-    background: rgba(10,10,10,0.25);
-}
-
-.active {
-    background-color: #4CAF50;
 }
 
 input[type=text], select {
@@ -91,4 +80,9 @@ div {
 
 h2{
     text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
 }

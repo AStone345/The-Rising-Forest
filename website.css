@@ -1,6 +1,8 @@
+
+
 nav ul{
     background-image: url(../images/woodBar.png);
-    position: fixed;
+    position: fixed;
 
     background-color:#8f8;
     list-style-type: none;
@@ -71,3 +73,9 @@ div {
 h2{
     text-align: center;
 }
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #D7DEDC;
+	}

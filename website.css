@@ -1,3 +1,40 @@
+nav ul{
+    background-image: url(../images/woodBar.png);
+    position: fixed;
+
+    background-color:#8f8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 0;
+    background-color:#333;
+    background-size:contain;
+    object-position: 0 40%;
+}
+nav ul li{
+    float: left;
+}
+
+
+nav ul li a {
+    
+    display: block;
+    color: white;
+    list-style-type: none;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background: rgb(10,10,10);
+    background: rgba(10,10,10,0.25);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
